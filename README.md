@@ -15,7 +15,7 @@ Please feel free to contact lyutoon@gmail.com if you have any questions.
 - **chains_pocs**: PoCs, call chains of frameworks and the corresponding responsible disclosure. (PoCs keeps updating when I found other vulnerable frameworks)
 
 ### Clarification
-LLMSmith now is still a research prototype, it may exist some unexcepted behaviors or bugs;
+LLMSmith now is still a research prototype and **can only be used for educational purpose**, it may exist some unexcepted behaviors or bugs;
 
 Meanwhile, DRA is under active updating (e.g., new vulnerable frameworks, new PoCs, new demos...)
 
