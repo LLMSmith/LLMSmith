@@ -1,0 +1,10 @@
+eval
+└── PandasLLM.prompt_0 (rce)
+
+exec
+└── Sandbox.execute_0
+    └── PandasLLM._execInSandbox_0
+        └── PandasLLM.prompt_0 (rce，prompt jailbreak)
+
+user API: 1
+PandasLLM.prompt

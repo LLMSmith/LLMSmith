@@ -1,0 +1,65 @@
+7: 7 / 7
+exec
+└── PythonAstREPLTool._run_0 (隐式调用)
+    ├── _get_functions_multi_prompt_0
+    │   └── _get_functions_prompt_and_tools_1
+    │       └── create_pandas_dataframe_agent_3 (rce)
+    ├── _get_functions_single_prompt_0
+    │   └── _get_functions_prompt_and_tools_0
+    │       └── create_pandas_dataframe_agent_2 (rce)
+    ├── _get_multi_prompt_0
+    │   └── _get_prompt_and_tools_0
+    │       └── create_pandas_dataframe_agent_0 
+    │           └── create_csv_agent_0 (rce)
+    ├── _get_single_prompt_0
+    │   └── _get_prompt_and_tools_1
+    │       └── create_pandas_dataframe_agent_1 (rce)
+    └── create_spark_dataframe_agent_0 (rce)
+
+exec
+└── PythonREPL.run_0
+    └── PALChain._call_0 （隐式调用）
+        └── _load_pal_chain_0 (rce)
+
+exec
+└── _load_prompt_from_file_0
+    └── load_prompt_0
+        └── _load_few_shot_prompt_0 (rce)
+
+
+3: 1 / 3
+subprocess.run
+└── BashProcess._run_0 （隐式调用）
+    └── BashProcess.run_0
+        └── _get_default_bash_processs_0 (可以rce，但没找到最高层的ShellTool，超级无敌隐式调用)
+
+subprocess.run
+├── Beam._deploy_0 (参数不可控)
+└── _deploy_0 (参数不可控)
+
+5: 5 / 5
+eval
+└── PythonAstREPLTool._run_0 (隐式调用)
+    ├── _get_functions_multi_prompt_0
+    │   └── _get_functions_prompt_and_tools_1
+    │       └── create_pandas_dataframe_agent_3 (rce)
+    ├── _get_functions_single_prompt_0
+    │   └── _get_functions_prompt_and_tools_0
+    │       └── create_pandas_dataframe_agent_2 (rce)
+    ├── _get_multi_prompt_0
+    │   └── _get_prompt_and_tools_0
+    │       └── create_pandas_dataframe_agent_0
+    │           └── create_csv_agent_0 (rce)
+    ├── _get_single_prompt_0
+    │   └── _get_prompt_and_tools_1
+    │       └── create_pandas_dataframe_agent_1 (rce)
+    └── create_spark_dataframe_agent_0 (rce)
+
+user API: 5
+create_pandas_dataframe_agent
+PALChain._call
+load_prompt
+create_csv_agent
+create_spark_dataframe_agent
+
+隐式调用4 / 5

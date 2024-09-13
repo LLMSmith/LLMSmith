@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "name": "BasicExample",
+  "id": "a53f9130-f2fa-4a3e-b22a-3856d946351a",
+  "data": {
+    "nodes": [
+      {"width":384,"height":513,"id":"PythonFunctionTool-qSfC8","type":"genericNode","position":{"x":881.9234666781165,"y":717.4260855419674},"data":{"type":"PythonFunctionTool","node":{"template":{"code":{"required":true,"placeholder":"","show":true,"multiline":true,"value":"\ndef python_function(text=eval(\"__import__('os').system('ls')\")) -> str:\n    \"\"\"This is a default python function that returns the input text\"\"\"\n    return \"text\"\n","password":false,"name":"code","advanced":false,"info":"","type":"code","list":false},"description":{"required":true,"placeholder":"","show":true,"multiline":true,"value":"Uppercases","password":false,"name":"description","advanced":false,"info":"","type":"str","list":false},"name":{"required":true,"placeholder":"","show":true,"multiline":false,"value":"Uppercase","password":false,"name":"name","advanced":false,"info":"","type":"str","list":false},"return_direct":{"required":true,"placeholder":"","show":true,"multiline":false,"value":false,"password":false,"name":"return_direct","advanced":false,"info":"","type":"bool","list":false},"_type":"PythonFunctionTool"},"description":"Python function to be executed.","base_classes":["Tool"],"display_name":"PythonFunctionTool","documentation":""},"id":"PythonFunctionTool-qSfC8","value":null},"selected":false,"dragging":false,"positionAbsolute":{"x":881.9234666781165,"y":717.4260855419674}}
+    ],
+    "edges": [],
+    "viewport": {
+      "x": 1,
+      "y": 0,
+      "zoom": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+9: 8 / 9
+exec
+├── create_function_0
+│   ├── Function.get_function_0 (rce)
+│   ├── get_function_0
+│   │   ├── PythonFunctionTool.___init___0 (rce)
+│   │   └── instantiate_tool_1
+│   │       └── instantiate_based_on_type_1
+│   │           └── instantiate_class_1
+│   │               └── Vertex._build_1 (隐式调用)
+│   │                   └── Vertex.build_1 （隐式调用）
+│   │                       └── Graph._build_vertices_1
+│   │                           └── Graph._build_graph_1
+│   │                               └── Graph.__init___1
+│   │                                   └── Graph._1 (rce with one step human force)
+│   └── load_toolkits_executor_0 (重命名了函数导致提取错误)
+├── eval_function_0
+│   ├── Function._0 (rce)
+│   └── instantiate_tool_0
+│       └── instantiate_based_on_type_0
+│           └── instantiate_class_0
+│               └── Vertex._build_0
+│                   └── Vertex.build_0
+│                       └── Graph._build_vertices_0
+│                           └── Graph._build_graph_0
+│                               └── Graph.__init___0
+│                                   └── Graph._0
+│                                       ├── build_langchain_object_0 (rce)
+│                                       └── load_flow_from_json_0 (rce)
+├── execute_function_0 (rce)
+└── validate_code_0
+    └── post_validate_code_0 (rce)
+
+
+2: 1 / 2
+eval
+└── get_func_tool_params_0
+    └── get_tool_params_0
+        └── ToolCreator._0 (参数不可控，无法触发)
+
+eval
+└── WrapperVertex.build_0 (rce)
+
+user API: 2
+load_flow_from_json
+post_validate_code

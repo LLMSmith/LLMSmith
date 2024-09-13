@@ -1,0 +1,22 @@
+1: 1 / 1
+exec
+└── PandasAI.run_code_0
+    └── PandasAI.run_0
+        └── PandasAI.__call___0 (rce)
+
+4: 4 / 4
+eval
+├── PandasAI._get_prompt_0
+│   ├── PandasAI._retry_run_code_0
+│   │   └── PandasAI.run_code_1
+│   │       └── PandasAI.run_3 (rce)
+│   ├── PandasAI.conversational_answer_0
+│   │   └── PandasAI.run_2 (rce)
+│   └── PandasAI.run_0
+│       └── PandasAI.__call___0 (rce)
+└── PandasAI.run_code_0
+    └── PandasAI.run_1 (rce)
+
+user API: 2
+PandasAI.__call___
+PandasAI.run
