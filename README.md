@@ -17,7 +17,7 @@ Please feel free to contact lyutoon@gmail.com if you have any questions.
 ### Clarification
 LLMSmith now is still a research prototype and **can only be used for educational purpose**, it may exist some unexcepted behaviors or bugs;
 
-Meanwhile, DRA is under active updating (e.g., new vulnerable frameworks, new PoCs, new demos...)
+Meanwhile, LLMSmith is under active updating (e.g., new vulnerable frameworks, new PoCs, new demos...)
 
 ### Cite
 ```
