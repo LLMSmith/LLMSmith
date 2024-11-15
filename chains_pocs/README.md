@@ -4,8 +4,10 @@
 
 Each folder contains the corresponding chains and exploits, the corresponsing responsible disclosure are as follows.
 
-- [NEW] MindSearch (RCE): https://github.com/InternLM/MindSearch/issues/107
-- [NEW] ragflow (RCE): https://github.com/infiniflow/ragflow/issues/1860
+- [NEW] gpt_academic (RCE): https://huntr.com/bounties/9abb1617-0c1d-42c7-a647-d9d2b39c6866
+- [NEW] gpt_academic (RCE): https://huntr.com/bounties/72d034e3-6ca2-495d-98a7-ac9565588c09
+- MindSearch (RCE): https://github.com/InternLM/MindSearch/issues/107
+- ragflow (RCE): https://github.com/infiniflow/ragflow/issues/1860
 - griptape (RCE): https://github.com/griptape-ai/griptape/issues/280
 - pandasai (RCE): https://github.com/Sinaptik-AI/pandas-ai/issues/550
 - lagent (RCE): https://github.com/InternLM/lagent/issues/28
