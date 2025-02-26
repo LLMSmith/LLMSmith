@@ -2,13 +2,17 @@
 
 ### Experiments in Paper
 
+#### Note: the code is developed on macos, during my testing, it may cannot be successfully used on linux or windows. Since I was testing the code on linux, I found some bugs in pycg that will make the call chain analysis totally unusable. Until now, I haven't found a way to solve this problem. But luckily, I'm sure that the code works well on my macos machine.
+![](https://i.miji.bid/2025/02/27/14db096d1bcd28fc64e1b4031adc643b.png)
+
+
 pip install related packages：
 
 ```
 pip install treelib
 ```
 
-Install pycg
+Install pycg (Note that the pycg 0.0.7 is now unavaliable thus you can use pycg 0.0.8 instead.)
 
 ```
 pip install pycg==0.0.7
